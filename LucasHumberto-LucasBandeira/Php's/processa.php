@@ -1,11 +1,14 @@
 <?php
 
-$num = $_POST["num"];
+$temp = $_POST["temp"];
+$tipo = strtoupper($_POST["tipo"]);
 
-if($num >= 100 && $num <= 200){
-echo "Está entre 100 e 200";
+if($tipo == "F"){
+$c = 5/9 * ($temp - 32);
+echo "$temp F = $c C";
 }else{
-echo "Não está entre 100 e 200";
+$f = ($temp * 9/5) + 32;
+echo "$temp C = $f F";
 }
 
 ?>

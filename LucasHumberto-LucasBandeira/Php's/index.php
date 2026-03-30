@@ -2,14 +2,17 @@
 Data: 30/03/2026
 Autor: Lucas Humberto e Lucas Bandeira
 Objetivo:
-Verificar se um número está entre 100 e 200
+Converter temperatura entre Celsius e Fahrenheit
 -->
 
 <form action="processa.php" method="post">
 
-Digite um número:
-<input type="number" name="num">
+Valor:
+<input type="number" name="temp">
 
-<input type="submit" value="Verificar">
+Tipo (C ou F):
+<input type="text" name="tipo">
+
+<input type="submit">
 
 </form>
