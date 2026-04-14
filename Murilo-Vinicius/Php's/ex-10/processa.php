@@ -1,15 +1,18 @@
-<!--
-Data: 30/03/2026
-Autor: Lucas Humberto e Lucas Bandeira
-Objetivo:
-Verificar se um ano é bissexto
--->
+<?php
 
-<form action="processa.php" method="post">
+if(isset($_POST["ano"])){
 
-Ano:
-<input type="number" name="ano">
+    $ano = $_POST["ano"];
 
-<input type="submit">
+    if(($ano % 400 == 0) || ($ano % 4 == 0 && $ano % 100 != 0)){
+        echo "Ano bissexto";
+    } else {
+        echo "Não é bissexto";
+    }
 
-</form>
+} else {
+    header("Location: index.php");
+    exit();
+}
+
+?>
