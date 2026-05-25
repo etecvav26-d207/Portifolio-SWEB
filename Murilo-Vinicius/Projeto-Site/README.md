@@ -11,8 +11,9 @@ Este repositório contém o planejamento e a proposta para o desenvolvimento do 
 
 ## Equipe
 
-[Nome dos Integrantes do Grupo]
+Vinicius Moreira Silva
+Murilo Bertani
 
 ## Data de Entrega
 
-[Data da Entrega]
+22/05/2026
