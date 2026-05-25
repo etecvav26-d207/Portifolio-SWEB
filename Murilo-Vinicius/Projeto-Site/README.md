@@ -12,7 +12,7 @@ Este repositório contém o planejamento e a proposta para o desenvolvimento do 
 ## Equipe
 
 Vinicius Moreira Silva
-Murilo Bertani
+Murilo Bertani 2° D
 
 ## Data de Entrega
 
