@@ -1,10 +1,10 @@
 # Pesquisa – TinyDB (MIT App Inventor)
 
 ## Integrantes
-- Nome 1
-- Nome 2
-- Nome 3
-
+Vinicius Moreira Silva
+Lucas Marques
+Murilo Bertani
+Lucas Huberto
 ---
 
 # 1. O que é o MIT App Inventor?
